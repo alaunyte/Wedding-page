@@ -43,6 +43,16 @@ nav a:hover {
 	background-color: #ffffff99;
 	width: 50%;
 }
+.notification{
+	display: none;
+	background-color: #faf0e699;
+	padding: 10px;
+	margin: 0 10px;
+}
+.notification::after{
+	content: "x";
+	float: right;
+}
 .input-align{
 	display: flex;
 	flex-direction: column;
